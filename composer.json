@@ -1,0 +1,9 @@
+{
+    "name": "digitaliseringsbyran/netlify-on-save",
+    "description": "Run a Netlify webhook on post save or update",
+    "type": "wordpress-plugin",
+    "license": "MIT",
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
+    }
+}
