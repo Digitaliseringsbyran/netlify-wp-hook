@@ -1,6 +1,6 @@
 {
-    "name": "digitaliseringsbyran/netlify-on-save",
-    "description": "Run a Netlify webhook on post save or update",
+    "name": "digitaliseringsbyran/netlify-wp-hook",
+    "description": "Trigger a Netlify build on post save/update",
     "type": "wordpress-plugin",
     "license": "MIT",
     "require": {
