@@ -27,7 +27,7 @@ class App {
 			if (isset($post->post_status) && $post->post_status == 'published') { return; }
 
 			// Only run in production
-			// if (defined('WP_ENV') && WP_ENV !== 'production') { return; }
+			if (defined('WP_ENV') && WP_ENV !== 'production') { return; }
 
 			$client = new \GuzzleHttp\Client();
 			$response = $client->post($this->BUILD_HOOK_URL);
